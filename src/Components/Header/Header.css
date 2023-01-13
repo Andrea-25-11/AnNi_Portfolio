@@ -1,0 +1,10 @@
+.imgNav{
+    width: 100%;
+}
+.NavBar {
+    background-color: #984C9D;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: bisque;
+}
