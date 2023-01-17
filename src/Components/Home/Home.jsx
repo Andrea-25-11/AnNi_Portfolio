@@ -26,10 +26,10 @@ function Home (){
                 <a href="">See resume<img src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt="" style={{width:120}}/></a>
             </div>
             {/* BOOKSHELF */}
-            <div className="techBookshelf">
+            <div className="divTechBookshelf">
                 <h1 className="titleTechBookshelf">MY TECH BOOKSHELF</h1>
-                <img src="https://drive.google.com/uc?export=view&id=1DHSCdAh7AR1LomXZVXmM822-eNd4BvD6k" alt="" className="techBookshelf" />
-                <a href="">Take a look of my projects<img className="potion"src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt="" /></a>
+                <img src="https://drive.google.com/uc?export=view&id=1DHSCdAh7AR1LomXZVXmM822-eNd4BvD6" alt="" className="techBookshelf" /><br/>
+                <a href="" className='aProjects'>Take a look of my projects<img className="potion"src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt="" /></a>
             </div>
             {/* WHERE I LEARNED */}
             <Studios/>

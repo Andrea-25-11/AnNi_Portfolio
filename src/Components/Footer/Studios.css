@@ -1,9 +1,10 @@
 div.accordion{
     background-color: blueviolet;
+    display: block;
+    margin: auto;
 }
 div.accordion-item{
     width: 80%;
-    background-color: blue;
     text-align: center;
 }
 .accordion-button{

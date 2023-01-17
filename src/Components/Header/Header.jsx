@@ -1,37 +1,18 @@
-import React, { useState } from 'react';
 import './Header.css';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from 'reactstrap';
+
 
 function Header() {
   return (
-  <Nav className='NavBar'>
-    <NavItem className='NavItem'>
-      <NavLink className='NavLink'
-        active
-        href="#"
-      >
-        About
-      </NavLink>
-    </NavItem>
-    <NavItem className='NavItem'>
-      <NavLink href="#">
-        Projetcs
-      </NavLink>
-    </NavItem>
-    <NavItem className='NavItem'>
-          <NavLink className='NavLink' href="#">
-        Contact
-      </NavLink>
-    </NavItem>
-  </Nav>
+  <>
+  <nav>
+    <ul>
+      <li><a href=""><img src="" alt="" /></a></li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+  </nav>
+  </>
 
   );
 };

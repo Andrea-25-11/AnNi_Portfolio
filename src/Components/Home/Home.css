@@ -1,4 +1,8 @@
 /* ESTILOS INTRO */
+*{
+    background-color: #E4D0E5;
+}
+
 .mainPpal{
     display: flex;
     text-align: center;
@@ -32,7 +36,6 @@
 
 .titleAboutMe{
     background-color: #984C9D;
-    width: 100vh;
     font-family:'Akshar' ;
     text-align: center;
     padding: 1rem;
@@ -57,12 +60,25 @@
 /* titulo tech bookshelf */
 .titleTechBookshelf{
     background-color: #984C9D;
-    width: 100vh;
-    font-family:'Akshar' ;
+    font-family:'Akshar';
     text-align: center;
     padding: 1rem;
 }
 /* imagen librero */
 .techBookshelf{
     width:80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+/* ancla a proyectos */
+.aProjects{
+    font-family:'Akshar';
+    font-size: 5em;
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    margin: 2rem;
+    display: block;
 }
