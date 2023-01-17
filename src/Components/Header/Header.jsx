@@ -30,7 +30,7 @@ function Header(props) {
               <NavItem className='NavItem'>
                 <NavLink className='itemNav' href="/components/">About</NavLink>
               </NavItem>
-              <NavItem lassName='NavItem'>
+              <NavItem className='NavItem'>
                 <NavLink className='itemNav' href="https://github.com/reactstrap/reactstrap">
                   GitHub
                 </NavLink>

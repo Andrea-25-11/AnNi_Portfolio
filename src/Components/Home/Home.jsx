@@ -3,7 +3,8 @@ import React from 'react';
 import './Home.css';
 import Studios from "../Studios/Studios";
 import {Footer} from '../Footer/Footer';
-import { Project } from '../Projects/Projects';
+import {Projects} from '../Projects/Projects';
+import data from "../Projects/Project.json";
 
 function Home (){
     return (
@@ -41,7 +42,11 @@ function Home (){
             {/* WHERE I LEARNED */}
             <Studios/>
             {/* Projects */}
-            <Project/>
+            <h1 className="titleTechBookshelf">SOME OF MY PROJECTS</h1>
+            {data.map (project =>(
+                <Projects key={project.id} project={project}/>
+            ))
+            }
             {/* Footer */}
             <Footer/>
 

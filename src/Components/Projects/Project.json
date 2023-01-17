@@ -4,18 +4,62 @@
         "title" : "VETERINARIA GATOS Y PERROS",
         "subtitle" : "HTML,CSS,REACT",
         "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
-        "text" : "reación de página web para cliente real",
-        "link" : 50000,
-        "link2": 1
+        "text" : "Creación de página web para cliente real que presta y comercializa productos para mascotas",
+        "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+
 },
 {
-    "id": 1 ,
-    "title" : "VETERINARIA",
-    "subtitle" : "VETERINARIA",
+    "id": 2 ,
+    "title" : "BEKER ABOGADOS",
+    "subtitle" : "HTML,CSS,SASS, BOTTSTRAP",
     "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
-    "text" : "La veterinaria es un servicio dedicado a la atención y cuidado de la salud de los animales de compañía. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas.Nuestro objetivo es brindar atención de calidad a nuestros pacientes y a sus dueños, y ayudar a mantener la salud y el bienestar de sus mascota. El precio de la consulta de tu peludo es de $50.000 recuerda pregunta por más información ya que los precios pueden variar",
-    "link" : 50000,
-    "link2": 1
+    "text" : "Proyecto final del curso de desarrrollo web de Coderhouse, se creo una página de una idea que se quisiera desarrollar. ",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+}
+,
+{
+    "id": 3 ,
+    "title" : "LOCKE & KEY FANDOM PAGE",
+    "subtitle" : "HTML,CSS",
+    "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+    "text" : "Creación de página web para el fandom de la serie de Netflix Locke & Key.",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+}
+,
+{
+    "id": 4 ,
+    "title" : "CALCULADORA",
+    "subtitle" : "HTML,CSS,JS",
+    "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+    "text" : "Calculadora con funcionalidad básica para operaciones aritméticas, también cuenta con modo oscuro.",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+}
+,
+{
+    "id": 5 ,
+    "title" : "SABUJTCHA",
+    "subtitle" : "HTML,CSS",
+    "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+    "text" : "Creación de página web para empresa que vende té.",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+}
+,
+{
+    "id": 6 ,
+    "title" : "WHEEL OF DOOM",
+    "subtitle" : "HTML,CSS, JS",
+    "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+    "text" : "Proyecto colaborativo para creación de juego tipo ruleta, participe principalmente en la creación de animaciones e ilustraciones",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
+}
+,
+{
+    "id": 7 ,
+    "title" : "DEEZER",
+    "subtitle" : "HTML,CSS",
+    "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+    "text" : "Proyecto colaborativo para la réplica de página web de Deezer",
+    "link" : "https://github.com/Andrea-25-11/PetShop/blob/master/src/components/Services/Services1.jsx"
 }
 
 ]

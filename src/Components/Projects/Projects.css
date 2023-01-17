@@ -1,5 +1,10 @@
 .mainProjects{
     background-color: #E4D0E5;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 /* ---ESTILOS CARD-- */
