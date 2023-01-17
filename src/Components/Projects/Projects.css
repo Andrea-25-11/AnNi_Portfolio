@@ -143,10 +143,10 @@
 @media (min-width:1200px) {
   .flip-card {
     background-color: transparent;
-    width: 18rem;
-    height: 18rem;
+    width: 14rem;
+    height: 14rem;
     perspective: 1000px;
     font-family: 'Akshar';
-    margin: 1rem 0.2rem;
+    margin: 1rem 0.6rem;
   }
 }
