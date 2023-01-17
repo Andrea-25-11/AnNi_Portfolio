@@ -43,10 +43,12 @@ function Home (){
             <Studios/>
             {/* Projects */}
             <h1 className="titleTechBookshelf">SOME OF MY PROJECTS</h1>
+            <div className="containerCards">
             {data.map (project =>(
                 <Projects key={project.id} project={project}/>
             ))
             }
+            </div>
             {/* Footer */}
             <Footer/>
 

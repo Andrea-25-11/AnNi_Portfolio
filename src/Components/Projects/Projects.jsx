@@ -6,7 +6,6 @@ export function Projects(props) {
   const {id,title, subtitle, img, text,link} = props.project  
   return (
     <>
-      <div className='mainProjects'>
         <div className="flip-card">
           <div className="flip-card-inner">
               <div className="flip-card-front" key={id}>
@@ -25,7 +24,6 @@ export function Projects(props) {
               </div>
           </div>
         </div>
-      </div>
     </>
     )
 }
