@@ -2,9 +2,9 @@
     {
         "id": 1 ,
         "title" : "VETERINARIA GATOS Y PERROS",
-        "subtitle" : "VETERINARIA",
+        "subtitle" : "HTML,CSS,REACT",
         "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
-        "text" : "La veterinaria es un servicio dedicado a la atención y cuidado de la salud de los animales de compañía. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas.Nuestro objetivo es brindar atención de calidad a nuestros pacientes y a sus dueños, y ayudar a mantener la salud y el bienestar de sus mascota. El precio de la consulta de tu peludo es de $50.000 recuerda pregunta por más información ya que los precios pueden variar",
+        "text" : "reación de página web para cliente real",
         "link" : 50000,
         "link2": 1
 },

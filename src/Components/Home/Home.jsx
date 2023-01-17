@@ -1,7 +1,9 @@
 import Header from '../Header/Header';
 import React from 'react';
 import './Home.css';
-import Studios from "../Footer/Studios";
+import Studios from "../Studios/Studios";
+import {Footer} from '../Footer/Footer';
+import { Project } from '../Projects/Projects';
 
 function Home (){
     return (
@@ -38,6 +40,11 @@ function Home (){
             </div>
             {/* WHERE I LEARNED */}
             <Studios/>
+            {/* Projects */}
+            <Project/>
+            {/* Footer */}
+            <Footer/>
+
         </>
     );
 }

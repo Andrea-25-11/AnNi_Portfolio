@@ -15,5 +15,17 @@ div.accordion-item{
     text-align: center;
 }
 .accordion-button{
-    background-color: blue;
+    background-color: #376c7542;
+}
+.acc .accItem{
+    background-color: #6bc8d862;
+}
+.accItem .accHeader{
+    font-family: 'Akshar';
+}
+.divStudios .acc{
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+    font-family:'Gowun Batang';
 }
