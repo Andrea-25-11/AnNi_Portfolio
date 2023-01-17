@@ -5,6 +5,14 @@
     background-color: #984C9D;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    align-items: center;
     color: bisque;
+}
+.NavItem{
+margin: 2rem;
+}
+
+.NavLink{
+    color: #984C9D;
 }

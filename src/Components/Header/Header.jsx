@@ -13,31 +13,21 @@ import {
 function Header() {
   return (
   <Nav className='NavBar'>
-    <NavbarBrand href="/">
-      <img
-        alt="logo"
-        src="https://drive.google.com/uc?export=view&id=1xiVLjkcVjiIHcVb2GZunpldFTJttalWJ"
-        style={{
-          height: 300,
-          width: 300
-        }}
-      />
-    </NavbarBrand>
-    <NavItem>
-      <NavLink
+    <NavItem className='NavItem'>
+      <NavLink className='NavLink'
         active
         href="#"
       >
         About
       </NavLink>
     </NavItem>
-    <NavItem>
+    <NavItem className='NavItem'>
       <NavLink href="#">
         Projetcs
       </NavLink>
     </NavItem>
-    <NavItem>
-          <NavLink href="#">
+    <NavItem className='NavItem'>
+          <NavLink className='NavLink' href="#">
         Contact
       </NavLink>
     </NavItem>

@@ -1,0 +1,11 @@
+div.accordion{
+    background-color: blueviolet;
+}
+div.accordion-item{
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+}
+.accordion-button{
+    background-color: blue;
+}
