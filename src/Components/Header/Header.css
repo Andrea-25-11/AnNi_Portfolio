@@ -3,7 +3,7 @@
 }
 .NavBar {
     background-color: #984C9D;
-    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -15,4 +15,8 @@ margin: 2rem;
 
 .NavLink{
     color: #984C9D;
+}
+
+.logoHeader{
+    height: 5rem;
 }
