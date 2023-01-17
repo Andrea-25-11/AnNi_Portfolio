@@ -11,13 +11,13 @@ export function Projects(props) {
               <div className="flip-card-front" key={id}>
                   <p className="title">{title}</p>
                   <p>{subtitle}</p>
-                  <img src={img}  alt="" />
+                  <img className="imgProjects"src={img}  alt="" />
               </div>
               <div className="flip-card-back">
                   <p className="title">{text}</p>
                   <button className="cta">
                       <span className="hover-underline-animation"> Visit site</span>
-                      <svg viewBox="0 0 46 16" height="10" width="30" xmlns={link} id="arrow-horizontal">
+                      <svg viewBox="0 0 46 16" height="10" width="30" xmlns={link} id="arrow-horizontal" target="_blank">
                           <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
                       </svg>
                   </button>

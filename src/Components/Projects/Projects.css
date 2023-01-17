@@ -3,18 +3,18 @@
 .flip-card {
     background-color: transparent;
     width: 20rem;
-    height: 20rem;
+    height: 14rem;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1rem;
-
   }
   
   .title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 900;
     text-align: center;
-    margin: 0;
+    margin: -0.2rem;
+    margin-top: 1rem;
   }
   
   .flip-card-inner {
@@ -31,7 +31,7 @@
   }
   
   .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 18px 15px 0 rgba(0,0,0,0.2);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -45,21 +45,24 @@
   }
   
   .flip-card-front {
-    background: linear-gradient(120deg,#ccd4e6 60%, #96b2d3 88%,
-    #431547 40%, #08506d 48%);
-    color:  #202764;
+    background: #ffffff;
+    color:  #8d628f;
   }
   
+
   .flip-card-back {
-    background: linear-gradient(120deg,  #4c1e96 30%,  #984C9D 88%,
-       bisque 40%, rgb(255, 185, 160) 78%);
-    color: white;
+    background: linear-gradient(120deg,  #ffffff 30%,  #ffffff 88%,
+    rgb(255, 255, 255) 40%, #2e6496 78%);
+    color:#2e6496;
     transform: rotateY(180deg);
-    padding: 1.5rem;
-    line-height: 1.3rem;
+    padding: 1rem;
+    line-height: 1rem;
   }
 
-
+.imgProjects{
+border-radius: 0 0 20px  20px;
+translate: 0rem 1rem;
+}
 
 
 
@@ -74,10 +77,10 @@
   .cta span {
     padding-bottom: 7px;
     letter-spacing: 4px;
-    font-size: 14px;
+    font-size: 1rem;
     padding-right: 15px;
     text-transform: uppercase;
-    color: white;
+    color:  #2e6496;
   }
   
   .cta svg {
@@ -107,7 +110,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #2e6496;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -122,31 +125,46 @@
   .flip-card {
     background-color: transparent;
     width: 20rem;
-    height: 20rem;
+    height: 15rem;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1rem;
   }
+  .imgProjects{
+    border-radius: 0 0 17px  17px;
+    translate: 0rem 0.2rem;
+    }
 }
  /* --TAMAÑOS CARDS TABLET */
 @media (min-width:482px) {
   .flip-card {
     background-color: transparent;
     width: 16rem;
-    height: 16rem;
-    perspective: 1000px;
-    font-family: 'Akshar';
-    margin: 1rem 0.2rem;
-  }
-}
-
-@media (min-width:1200px) {
-  .flip-card {
-    background-color: transparent;
-    width: 14rem;
     height: 14rem;
     perspective: 1000px;
     font-family: 'Akshar';
-    margin: 1rem 0.6rem;
+    margin: 1rem;
   }
+  .imgProjects{
+    border-radius: 0 0 17px  17px;
+    translate: 0rem 0.5rem;
+    }
+}
+
+@media (min-width:1025px) {
+  .flip-card {
+    background-color: transparent;
+    width: 13rem;
+    height: 11rem;
+    perspective: 1000px;
+    font-family: 'Akshar';
+    margin: 1.2rem 1rem;
+  }
+  .imgProjects{
+    border-radius: 0 0 17px  17px;
+    translate: 0rem 0.2rem;
+    }
+    .flip-card-back {
+      font-size: 0.7rem;
+    }
 }

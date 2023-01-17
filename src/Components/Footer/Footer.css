@@ -22,3 +22,15 @@ margin: 0rem 1rem;
     text-decoration: none;
 
 }
+
+@media (max-width:481px) {
+    .footer{
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    
+    .footer ul li{
+        list-style-type: none;
+    margin: 0rem 0.5rem;
+    }
+}
