@@ -27,11 +27,11 @@ function Header(props) {
           <NavbarToggler onClick={toggleNavbar} className="me-2" />
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
-              <NavItem>
-                <NavLink href="/components/">About</NavLink>
+              <NavItem className='NavItem'>
+                <NavLink className='itemNav' href="/components/">About</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem lassName='NavItem'>
+                <NavLink className='itemNav' href="https://github.com/reactstrap/reactstrap">
                   GitHub
                 </NavLink>
               </NavItem>

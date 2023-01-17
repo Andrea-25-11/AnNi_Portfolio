@@ -19,6 +19,7 @@ function Studios(props) {
 
   return (
     <div>
+      <h1 className='titleStudios'>MY STUDIOS</h1>
       <Accordion open={open} toggle={toggle}>
         <AccordionItem>
           <AccordionHeader targetId="1"><strong>Desarrolladora FullStack Developer</strong> / EDUCAMÁS - PROGRÁMATE ACADEMY</AccordionHeader>

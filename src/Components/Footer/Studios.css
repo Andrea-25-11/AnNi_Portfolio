@@ -1,6 +1,13 @@
+.titleStudios{
+        background-color: #984C9D;
+        font-family:'Akshar';
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+}
 div.accordion{
-    background-color: blueviolet;
-    display: block;
+    background-color: #E4D0E5;
+    display: inline-block;
     margin: auto;
 }
 div.accordion-item{
