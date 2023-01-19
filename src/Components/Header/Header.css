@@ -1,7 +1,6 @@
 .NavBar1 {
     background-color: #984C9D;
     width: 100%;
-    display: flex;
     text-align: center;
 }
 
@@ -18,13 +17,15 @@
     }
     ul.navbar-nav {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        
+        flex-direction: row;        
     }
-    div.container-fluid{
+    .NavBar1 .container-fluid{
         display: flex;
         justify-content: space-between;
+    }
+    ul.navbar-nav{
+        margin-left: 1rem;
+        justify-content: flex-end;
     }
     ul.navbar-nav li{
         margin: 1rem;
@@ -37,6 +38,7 @@
     }
     .NavBar1 .NavBar {
         flex-wrap: nowrap;
+        justify-items: flex-end;
     }
 
 
