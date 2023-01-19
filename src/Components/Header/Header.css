@@ -1,4 +1,4 @@
-.NavBar {
+.NavBar1 {
     background-color: #984C9D;
     width: 100%;
     display: flex;
@@ -10,4 +10,34 @@
 }
 .logoHeader{
     height: 5rem;
+}
+
+@media (min-width:482px) {
+    .NavBar .collapse:not(.show) {
+        display: block;
+    }
+    ul.navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    }
+    div.container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul.navbar-nav li{
+        margin: 1rem;
+    }
+    .navbar-collapse {
+        flex-basis: 0%
+    }
+    .botonNav{
+        display: none;
+    }
+    .NavBar1 .NavBar {
+        flex-wrap: nowrap;
+    }
+
+
 }

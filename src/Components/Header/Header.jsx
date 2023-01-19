@@ -16,7 +16,7 @@ function Header(props) {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div className='NavBar'>
+    <div className='NavBar1'>
       <Navbar className="NavBar"color="faded" light>
         <NavbarBrand href="/">
         <img className='logoHeader'
@@ -24,15 +24,20 @@ function Header(props) {
           src="https://drive.google.com/uc?export=view&id=1HPrJzWaPITW4xrgLTtMDzybyoUaG4kpV"
         />
       </NavbarBrand>
-          <NavbarToggler onClick={toggleNavbar} className="me-2" />
-          <Collapse isOpen={!collapsed} navbar>
+          <NavbarToggler onClick={toggleNavbar} className="me-2 botonNav" />
+          <Collapse className="collapsedNavBar"isOpen={!collapsed} navbar>
             <Nav navbar>
               <NavItem className='NavItem'>
                 <NavLink className='itemNav' href="/components/">About</NavLink>
               </NavItem>
               <NavItem className='NavItem'>
+                <NavLink className='itemNav' href=".components/">
+                  Projects
+                </NavLink>
+              </NavItem>
+              <NavItem className='NavItem'>
                 <NavLink className='itemNav' href="https://github.com/reactstrap/reactstrap">
-                  GitHub
+                  Contact
                 </NavLink>
               </NavItem>
             </Nav>
