@@ -13,7 +13,7 @@ function Home (){
             {/* INTRO */}
             <div className='mainPpal'>
                 <div className="textoMain">
-                    <h1>Hi! I'm Andrea</h1>
+                    <h1>Hi! I'm Andrea Niño</h1>
                     <img className="imgAndreaCel"src="https://drive.google.com/uc?export=view&id=1C20SJRxPzMj4W0NPfTjT9cTlm5QBHRrg" alt="" />
                     <p>I’m a full stack web developer focused on the front-end, I’m also a lawyer and a lover of everything that looks girly, cute  and pretty. <br/><br/>Enjoy seeing my profile to know my skills, projects, resume and if you are interested contact me!</p>
                     <a className="aSeeMore" href="">See more about me<img className="potion"src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt=""/></a>
