@@ -28,10 +28,10 @@ function Header(props) {
           <Collapse className="collapsedNavBar"isOpen={!collapsed} navbar>
             <Nav navbar>
               <NavItem className='NavItem'>
-                <NavLink className='itemNav' href="/components/">About</NavLink>
+                <NavLink className='itemNav' href="#aboutMeSection">About</NavLink>
               </NavItem>
               <NavItem className='NavItem'>
-                <NavLink className='itemNav' href=".components/">
+                <NavLink className='itemNav' href="#projectsSection">
                   Projects
                 </NavLink>
               </NavItem>
