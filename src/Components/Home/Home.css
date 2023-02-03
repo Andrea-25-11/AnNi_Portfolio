@@ -22,11 +22,11 @@
     font-family: 'Akshar', 'Gowun Batang','Courier New';
 }
 /* ilustracion Andrea */
-.imgAndrea{
+div.imgAndrea{
     width: 45rem;
     height: 45rem;
-    margin-right: 10rem;
-    align-items: flex-end;
+    border-radius: 50px;
+    border: none;
 }
 .imgAndreaCel{
     display: none;
@@ -153,6 +153,7 @@
         height: 15rem;
         margin-bottom: 1rem;
         justify-content: center;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     }
     .pAboutMe{
         display: flex;
@@ -191,13 +192,27 @@
         display: grid;
         grid-template-columns: 60% 40%;
         overflow: hidden;
+        align-items: center;
+        justify-items: center;
     }
     .imgAndrea{
-        width: 25rem;
-        height: 25rem;
-        z-index:0;
-        translate: -6rem 1rem;
-        align-items: end;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background-color: #ccc3dd;
+        border: none;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+    }
+
+    .imgAndrea{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        background-color: #ccc3dd;
+        border: none;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
     }
     .mainPpal div {
         margin: 1rem;
@@ -241,11 +256,14 @@
 @media (min-width:1200px) {
     *{
         font-size: 25px;
+        
     }
-    .imgAndrea{
-        width: 25rem;
-        height: 25rem;
+    div.imgAndrea{
+        width: 20rem;
+        height: 20rem;
         margin-right: 10rem;
+        align-items: center;
+        justify-items: center;
     }
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
     .containerCards{

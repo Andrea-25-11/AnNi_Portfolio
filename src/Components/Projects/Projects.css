@@ -1,5 +1,8 @@
 
 /* ---ESTILOS CARD-- */
+.linksDespliegues{
+  text-decoration: none;
+}
 .flip-card {
     background-color: transparent;
     width: 20rem;
