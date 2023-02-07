@@ -2,13 +2,16 @@
     background-color: #984C9D;
     width: 100%;
     text-align: center;
+    font-family:'Dancing script'; 
+
 }
 
 .NavItem .itemNav{
     color: white;
+    font-size: 4vw;
 }
 .logoHeader{
-    height: 5rem;
+    height: 12vw;
 }
 
 @media (min-width:482px) {

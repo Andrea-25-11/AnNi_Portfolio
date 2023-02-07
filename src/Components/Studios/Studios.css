@@ -1,6 +1,6 @@
 .titleStudios{
         background-color: #984C9D;
-        font-family:'Akshar';
+        font-family:'Dancing script';
         text-align: center;
         padding: 1rem;
         margin: 0;
@@ -21,11 +21,11 @@ div.accordion-item{
     background-color: #6bc8d862;
 }
 .accItem .accHeader{
-    font-family: 'Akshar';
+    font-family: 'Montserrat';
 }
 .divStudios .acc{
     display: grid;
     justify-items: center;
     padding: 2rem;
-    font-family:'Gowun Batang';
+    font-family:'Montserrat';
 }

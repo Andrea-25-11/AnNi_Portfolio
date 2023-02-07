@@ -19,7 +19,7 @@ function Studios(props) {
 
   return (
     <div className='divStudios'>
-      <h1 className='titleStudios'>MY STUDIOS</h1>
+      <h1 className='titleStudios'>My studios</h1>
       <Accordion className='acc'open={open} toggle={toggle}>
         <AccordionItem className='accItem'>
           <AccordionHeader className='accHeader'targetId="1"><strong>Desarrolladora FullStack Developer</strong> / EDUCAMÁS - PROGRÁMATE ACADEMY</AccordionHeader>

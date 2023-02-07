@@ -1,4 +1,6 @@
 /* ESTILOS INTRO */
+
+
 *{
     font-size: 25px;
 }
@@ -19,7 +21,7 @@
 /* titulo saludo */
 .mainPpal h1 {
     font-size: 3rem;
-    font-family: 'Akshar', 'Gowun Batang','Courier New';
+    font-family: 'Dancing script', 'Gowun Batang','Courier New';
 }
 /* ilustracion Andrea */
 div.imgAndrea{
@@ -36,7 +38,7 @@ div.imgAndrea{
     width: 5rem;
 }
 .aSeeMore{
-    font-family:'Akshar';
+    font-family:'Dancing script';
     font-size: 1rem;
     color: black;
     text-decoration: none;
@@ -54,7 +56,7 @@ div.imgAndrea{
 }
 .titleAboutMe{
     background-color: #984C9D;
-    font-family:'Akshar' ;
+    font-family:'Dancing script' ;
     text-align: center;
     padding: 1rem;
 }
@@ -85,13 +87,13 @@ div.imgAndrea{
 }
 .titleTechBookshelf{
     background-color: #984C9D;
-    font-family:'Akshar';
+    font-family:'Dancing script';
     text-align: center;
     padding: 1rem;
     margin: 0;
 }
 .aResume{
-    font-family:'Akshar';
+    font-family:'Dancing script';
     font-size: 1rem;
     color: black;
     text-decoration: none;
@@ -110,7 +112,7 @@ div.imgAndrea{
 }
 /* ancla a proyectos */
 .aProjects{
-        font-family:'Akshar';
+        font-family:'Dancing script';
         font-size: 1rem;
         color: black;
         text-decoration: none;
@@ -149,29 +151,32 @@ div.imgAndrea{
     }
     .imgAndreaCel{
         display: inline-block;
+        background-color: rgb(236, 220, 220);
         width: 15rem;
         height: 15rem;
         margin-bottom: 1rem;
         justify-content: center;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        border-radius: 100px;
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
     }
     .pAboutMe{
         display: flex;
-        padding-right: 100px;
+        padding-right: 0px;
         text-align: center;
         font-family: 'Gowun Batang';
+        font-size: 3vw;
     }
     .aboutMe{
         background-image: url("https://drive.google.com/uc?export=view&id=1D57nZqH5qC0_PMbKvaSRKrbcAkctFwC2");
-        background-size:60rem ;
-        background-position: -80px 0px;
+        background-size:100vw ;
+        background-position: 110px 70px;
         background-repeat: no-repeat;
     }
     .calderoAboutMe{
         display: none;
     }
     .aResume{
-        translate: -150px -20px;
+        translate: -140px 150px;
         color: black;
         font-size: 1rem;
     }
@@ -240,7 +245,7 @@ div.imgAndrea{
         width: 45rem;
         height: 45rem;
         z-index:0;
-        translate: -15rem -7rem;
+        translate: 6rem -35rem;
     }
         
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
@@ -272,5 +277,11 @@ div.imgAndrea{
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+    }
+    .calderoAboutMe{
+        width: 45rem;
+        height: 45rem;
+        z-index:0;
+        translate: 12rem -32rem;
     }
 }

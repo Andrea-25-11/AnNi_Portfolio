@@ -1,14 +1,14 @@
 .footer{
     background-color: #984C9D;
-    font-family:'Akshar';
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     color: white;
+    font-family:'Dancing script'; 
 }
 
 .footer ul{
-    font-family:'Akshar';
+    font-family:'Dancing script'; 
     display: flex;
     justify-content: right;
 }

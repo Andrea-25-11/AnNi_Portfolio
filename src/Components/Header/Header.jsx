@@ -36,7 +36,7 @@ function Header(props) {
                 </NavLink>
               </NavItem>
               <NavItem className='NavItem'>
-                <NavLink className='itemNav' href="https://github.com/reactstrap/reactstrap">
+                <NavLink className='itemNav' href="#aboutMeSection">
                   Contact
                 </NavLink>
               </NavItem>
