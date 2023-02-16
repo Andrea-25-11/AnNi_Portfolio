@@ -7,11 +7,11 @@ function Contact() {
     <div className="divContact">
       <h1 className="titleContact">- - - My Contact - - - </h1>
       <div className="contactMain">
-        <img
+        {/* <img
           className="imgContact animate__animated animate__zoomIn"
           src="https://drive.google.com/uc?export=view&id=1Be3lrsrI0_AVNSwTs3n1J5RDU2E1WZv8"
           alt=""
-        />
+        /> */}
 
 
         <div class="card">
