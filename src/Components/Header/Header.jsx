@@ -10,6 +10,8 @@ import {
   NavLink,
 } from 'reactstrap';
 
+import 'animate.css';
+
 function Header(props) {
   const [collapsed, setCollapsed] = useState(true);
 
@@ -19,12 +21,12 @@ function Header(props) {
     <div className='NavBar1'>
       <Navbar className="NavBar"color="faded" light>
         <NavbarBrand href="/">
-        <img className='logoHeader'
+        <img className='logoHeader animate__animated animate__backInLeft'
           alt="logo"
           src="https://drive.google.com/uc?export=view&id=1HPrJzWaPITW4xrgLTtMDzybyoUaG4kpV"
         />
       </NavbarBrand>
-          <NavbarToggler onClick={toggleNavbar} className="me-2 botonNav" />
+          <NavbarToggler onClick={toggleNavbar} className="me-2 botonNav" style={{backgroundColor:"#E4D0E5", border:"none"}} />
           <Collapse className="collapsedNavBar"isOpen={!collapsed} navbar>
             <Nav navbar>
               <NavItem className='NavItem'>

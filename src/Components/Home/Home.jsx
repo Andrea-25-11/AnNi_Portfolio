@@ -5,6 +5,7 @@ import Studios from "../Studios/Studios";
 import {Footer} from '../Footer/Footer';
 import {Projects} from '../Projects/Projects';
 import data from "../Projects/Project.json";
+import 'animate.css';
 
 function Home (){
     return (
@@ -13,13 +14,13 @@ function Home (){
             {/* INTRO */}
             <div className='mainPpal'>
                 <div className="textoMain">
-                    <h1>Hi! I'm Andrea Niño</h1>
-                    <img className="imgAndreaCel"src="https://drive.google.com/uc?export=view&id=1C20SJRxPzMj4W0NPfTjT9cTlm5QBHRrg" alt="" />
-                    <p>I’m a full stack web developer focused on the front-end, I’m also a lawyer and a lover of everything that looks girly, cute  and pretty. <br/><br/>Enjoy seeing my profile to know my skills, projects, resume and if you are interested contact me!</p>
+                    <h1 className='animate__animated animate__jackInTheBox'>Hi! I'm Andrea Niño</h1>
+                    <img className="imgAndreaCel animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1C20SJRxPzMj4W0NPfTjT9cTlm5QBHRrg" alt="" />
+                    <p className='animate__animated animate__zoomIn'>I’m a full stack web developer focused on the front-end, I’m also a lawyer and a lover of everything that looks girly, cute  and pretty. <br/><br/>Enjoy seeing my profile to know my skills, projects, resume and if you are interested contact me!</p>
                     <a className="aSeeMore" href="
-                    #aboutMeSection">See more about me<img className="potion"src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt=""/></a>
+                    #aboutMeSection">See more about me<img className="potion animate__animated animate__swing "src="https://drive.google.com/uc?export=view&id=1QTb11Xj2Bf0Y6SvQTr3XHjKxGSfePXh6" alt=""/></a>
                 </div>
-                <img className="imgAndrea"src="https://drive.google.com/uc?export=view&id=1C20SJRxPzMj4W0NPfTjT9cTlm5QBHRrg" alt="" />
+                <img className="imgAndrea animate__animated animate__swing"src="https://drive.google.com/uc?export=view&id=1C20SJRxPzMj4W0NPfTjT9cTlm5QBHRrg" alt="" />
             </div>
 
             
@@ -50,6 +51,7 @@ function Home (){
             ))
             }
             </div>
+            
             {/* Footer */}
             <Footer/>
 

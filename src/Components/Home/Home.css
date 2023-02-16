@@ -1,10 +1,6 @@
 /* ESTILOS INTRO */
 
 
-*{
-    font-size: 25px;
-}
-
 /* --HEADER-- */
 
 .mainPpal{
@@ -285,3 +281,13 @@ div.imgAndrea{
         translate: 12rem -32rem;
     }
 }
+
+/* ANIMACIONES */
+
+.potion{
+    display: inline-block;
+    margin: 0 0.3rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;/* don't forget to set a duration! */
+  }
