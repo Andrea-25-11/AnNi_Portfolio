@@ -2,32 +2,28 @@
     background-color: #984C9D;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 1rem;
-    color: white;
-    font-family:'Dancing script'; 
+    color: rgb(245, 239, 239);
 }
 
 .footer ul{
-    font-family:'Dancing script'; 
     display: flex;
-    justify-content: right;
+    margin: 0;
 }
 .footer ul li{
     list-style-type: none;
-margin: 0rem 1rem;
+    margin: 0rem 1rem;
 
 }
 .footer ul li a{
-    color: white;
+    color: rgb(245, 239, 239);
     text-decoration: none;
 
 }
 
 @media (max-width:481px) {
-    .footer{
-        padding-top: 1rem;
-        padding-bottom: 0rem;
-    }
+
     
     .footer ul li{
         list-style-type: none;

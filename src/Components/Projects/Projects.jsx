@@ -9,7 +9,7 @@ export function Projects(props) {
         <div className="flip-card">
           <div className="flip-card-inner">
               <div className="flip-card-front" key={id}>
-                  <p className="title">{title}</p>
+                  <p className="titleCards">{title}</p>
                   <p>{subtitle}</p>
                   <img className="imgProjects"src={img}  alt="" />
               </div>

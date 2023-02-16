@@ -9,7 +9,7 @@ export function Footer() {
         <ul>
             <li><a href="#aboutMeSection" rel="noopener noreferrer">About</a></li>
             <li><a href="#projectsSection" rel="noopener noreferrer">Projects</a></li>
-            <li><a href="#aboutMeSection" rel="noopener noreferrer">Contact</a></li>
+            <li><a href="#contactSection" rel="noopener noreferrer">Contact</a></li>
         </ul>
         </div>
     </>

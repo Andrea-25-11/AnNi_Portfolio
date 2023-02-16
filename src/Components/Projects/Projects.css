@@ -5,19 +5,21 @@
 }
 .flip-card {
     background-color: transparent;
-    width: 20rem;
-    height: 14rem;
+    width: 80vw;
+    height: 60vw;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1rem;
+    
   }
   
-  .title {
+  .titleCards {
     font-size: 1rem;
     font-weight: 900;
     text-align: center;
     margin: -0.2rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
+    color: rgb(19, 17, 17);
   }
   
   .flip-card-inner {
@@ -124,11 +126,11 @@ translate: 0rem 1rem;
   }
 
   /* --TAMAÑOS CARDS CELULAR */
-  @media (max-width:481px) {
+  @media (max-width:600px) {
   .flip-card {
     background-color: transparent;
-    width: 20rem;
-    height: 15rem;
+    width: 80vw;
+    height: 50vw;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1rem;
@@ -142,8 +144,8 @@ translate: 0rem 1rem;
 @media (min-width:482px) {
   .flip-card {
     background-color: transparent;
-    width: 16rem;
-    height: 14rem;
+    width: 38vw;
+    height: 42vw;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1rem;
@@ -157,8 +159,8 @@ translate: 0rem 1rem;
 @media (min-width:1025px) {
   .flip-card {
     background-color: transparent;
-    width: 13rem;
-    height: 11rem;
+    width: 25vw;
+    height: 16vw;
     perspective: 1000px;
     font-family: 'Akshar';
     margin: 1.2rem 1rem;
