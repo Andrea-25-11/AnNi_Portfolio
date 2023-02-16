@@ -2,7 +2,7 @@
     background-color: #984C9D;
     width: 100%;
     text-align: center;
-    font-family:'Dancing script'; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .NavItem .itemNav{
@@ -18,7 +18,8 @@
     }
     ul.navbar-nav {
         display: flex;
-        flex-direction: row;        
+        flex-direction: row;   
+        align-items: center;     
     }
     .NavBar1 .container-fluid{
         display: flex;
@@ -29,7 +30,7 @@
         justify-content: flex-end;
     }
     ul.navbar-nav li{
-        margin: 1rem;
+        margin: 0  1rem;
     }
     .navbar-collapse {
         flex-basis: 0%
@@ -37,12 +38,13 @@
     .botonNav{
         display: none;
     }
+    
     .NavBar1 .NavBar {
         flex-wrap: nowrap;
         justify-items: flex-end;
     }
     .logoHeader{
-        height: 12vw;
+        height: 6vw;
     }
 
 }

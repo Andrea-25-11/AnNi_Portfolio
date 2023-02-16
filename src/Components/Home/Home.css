@@ -1,12 +1,14 @@
 /* ESTILOS INTRO */
-
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* --HEADER-- */
 
 .mainPpal{
     display: flex;
     text-align: center;
-    font-family: 'Gowun Batang','Courier New';
+    font-family: 'Montserrat', sans-serif;
     background-color: #E4D0E5;
 }
 
@@ -20,7 +22,7 @@
     font-family: 'Dancing script', 'Gowun Batang','Courier New';
 }
 /* ilustracion Andrea */
-div.imgAndrea{
+.imgAndrea{
     width: 45rem;
     height: 45rem;
     border-radius: 50px;
@@ -31,7 +33,7 @@ div.imgAndrea{
 }
 /* pocion botones enlaces */
 .potion{
-    width: 5rem;
+    width: 4rem;
 }
 .aSeeMore{
     font-family:'Dancing script';
@@ -58,22 +60,33 @@ div.imgAndrea{
 }
 /* contenedor imagen y texto */
 .mainAbout{
-    display:flex;
-    vertical-align: middle;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+        justify-items: center;
+        padding: 0.3vw 0;
 }
 /* p about me  */
 .pAboutMe{
-    display: flex;
-    align-items: center;
     padding: 2rem;
-    text-align: center;
-    font-family: 'Gowun Batang';
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
 
 }
 /* imagen about me */
-.calderoAboutMe{
-    width: 40rem;
-    height: 20rem;
+.imgAbout{
+    width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        border: none;
+        margin-top: 2rem;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.imgAboutCat{
+    display: none;
+}
+.imgAboutDance{
+    display: none;
 }
 
 /* -----TECH BOOKSHELF -----*/
@@ -113,7 +126,6 @@ div.imgAndrea{
         color: black;
         text-decoration: none;
         text-align: center;
-        translate: 20px -15px;
         display: block;
 }
 
@@ -139,7 +151,6 @@ div.imgAndrea{
         flex-direction: column;
         text-align: center;
         font-size: 1rem;
-        font-family: 'Gowun Batang','Courier New';
         background-color: #E4D0E5;
     }
     .imgAndrea{
@@ -147,7 +158,6 @@ div.imgAndrea{
     }
     .imgAndreaCel{
         display: inline-block;
-        background-color: rgb(236, 220, 220);
         width: 15rem;
         height: 15rem;
         margin-bottom: 1rem;
@@ -155,27 +165,29 @@ div.imgAndrea{
         border-radius: 100px;
         box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
     }
-    .pAboutMe{
+    .mainAbout{
         display: flex;
-        padding-right: 0px;
-        text-align: center;
-        font-family: 'Gowun Batang';
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-items: center;
+}
+    .pAboutMe{
         font-size: 3vw;
+        text-align: center;
+        padding: 1rem 2rem;
     }
-    .aboutMe{
-        background-image: url("https://drive.google.com/uc?export=view&id=1D57nZqH5qC0_PMbKvaSRKrbcAkctFwC2");
-        background-size:100vw ;
-        background-position: 110px 70px;
-        background-repeat: no-repeat;
+    .contImgsAbout{
+        display: flex;
     }
-    .calderoAboutMe{
-        display: none;
+    .imgAbout, .imgAboutCat, .imgAboutDance{
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 0rem;
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 18% 50%, 0% 0%);
     }
-    .aResume{
-        translate: -140px 150px;
-        color: black;
-        font-size: 1rem;
-    }
+    
+
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
     .containerCards{
         display: grid;
@@ -200,7 +212,6 @@ div.imgAndrea{
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
-        background-color: #ccc3dd;
         border: none;
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
@@ -210,7 +221,6 @@ div.imgAndrea{
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
-        background-color: #ccc3dd;
         border: none;
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
@@ -220,13 +230,7 @@ div.imgAndrea{
         margin-top: 2rem;
         padding: 0.1;
     }
-    
-    .mainAbout{
-        display:grid;
-        grid-template-columns: 60% 40%;
-        overflow: hidden;
-        height: 700px;
-    }
+
     /* p about me  */
     .pAboutMe{
         display: flex;
@@ -236,13 +240,7 @@ div.imgAndrea{
         z-index:1;
     
     }
-    /* imagen about me */
-    .calderoAboutMe{
-        width: 45rem;
-        height: 45rem;
-        z-index:0;
-        translate: 6rem -35rem;
-    }
+
         
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
     .containerCards{
@@ -255,17 +253,7 @@ div.imgAndrea{
 }
 /* ESTILO DESKTOP */
 @media (min-width:1200px) {
-    *{
-        font-size: 25px;
-        
-    }
-    div.imgAndrea{
-        width: 20rem;
-        height: 20rem;
-        margin-right: 10rem;
-        align-items: center;
-        justify-items: center;
-    }
+
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
     .containerCards{
         display: grid;
@@ -274,13 +262,7 @@ div.imgAndrea{
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
-    .calderoAboutMe{
-        width: 45rem;
-        height: 45rem;
-        z-index:0;
-        translate: 12rem -32rem;
-    }
-}
+} 
 
 /* ANIMACIONES */
 
