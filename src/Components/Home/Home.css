@@ -181,12 +181,18 @@
     }
     .imgAbout, .imgAboutCat, .imgAboutDance{
         display: flex;
+        border-radius: 0;
         width: 8rem;
         height: 8rem;
-        margin-top: 0rem;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 18% 50%, 0% 0%);
     }
-    
+    .imgAbout, .imgAboutCat, .imgAboutDance{
+        display: inline-block;
+        margin: 0 0.3rem;
+        animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 8s;
+        animation-iteration-count: infinite;/* don't forget to set a duration! */
+      }
 
     /* --CONTAINERD CARDS PROYECTOS CELULAR*/
     .containerCards{
@@ -273,3 +279,5 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;/* don't forget to set a duration! */
   }
+
+  
