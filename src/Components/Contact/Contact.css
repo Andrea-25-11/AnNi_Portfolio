@@ -7,26 +7,27 @@
   margin: 0;
 }
 
-.contactMain {
+.contactMainPpal{
   display: flex;
+  align-items: center;
+}
+.contactMain {
+
   text-align: center;
   align-items:center ;
   font-family: "Montserrat", sans-serif;
   background-color: #e4d0e5;
+  width: 100%;
   padding: 3rem;
+  display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.imgContact{
-        width: 15rem;
-        height: 15rem;
-        border-radius: 50%;
-        border: none;
-        margin-top: 2rem;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
 
 .ri-github-line, .ri-mail-line, .ri-linkedin-fill, .ri-cellphone-line,  .ri-global-line{
-        font-size: 55px;
+        font-size: 5vw;
 }
 
 /* ANIMACION CEL  */
@@ -34,13 +35,11 @@
         --bg: #f7f7f8;
         --hover-bg: #ffe5fe;
         --hover-text: #8f1775;
-        width: 240px;
-        height: 120px;
+        width: 40vw;
+        height: 25vw;
         text-align: center;
         background: var(--bg);
-        padding: 1.5rem;
-        padding-block: 1.8rem;
-        border-radius: 15px;
+        padding: 20px;
         position: relative;
         overflow: hidden;
         transition: .3s cubic-bezier(.6,.4,0,1),transform .15s ease;
@@ -55,15 +54,11 @@
         line-height: 1.2rem;
         margin: 0 10px;
         font-size: 1rem;
-      }
-      
-      .card > :not(span) {
-        transition: .3s cubic-bezier(.6,.4,0,1);
+        
       }
       
       .card > strong {
-        display: block;
-        font-size: 1.4rem;
+        font-size: 2vw;
         letter-spacing: -.035rem;
       }
       
@@ -93,4 +88,14 @@
       
       .card:hover>div,.card:hover>strong {
         opacity: 0;
+      }
+
+      @media (min-width:482px) {
+        .card {
+
+          width: 16vw;
+          min-height: 18vw;
+          
+        }
+        
       }

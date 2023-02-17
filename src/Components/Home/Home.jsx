@@ -17,12 +17,12 @@ function Home (){
             <div className='mainPpal'>
                 <div className="textoMain">
                     <h1 className='animate__animated animate__jackInTheBox'>Hi! I'm Andrea Niño</h1>
-                    <img className="imgAndreaCel animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1TeXMvfoWhVli_rKbSzHus8CjWkeDCB_W" alt="" />
+                    <img className="imgAndreaCel animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1V6FeyNu2Saiwb5VR_mKyRDXBrllyXUEK" alt="" />
                     <p className='animate__animated animate__zoomIn'>I’m a full stack web developer focused on the front-end, I’m also a lawyer and a lover of everything that looks girly, cute  and pretty. <br/><br/>Enjoy seeing my profile to know my skills, projects, resume and if you are interested contact me!</p>
                     <a className="aSeeMore" href="
                     #aboutMeSection">See more about me<img className="potion animate__animated animate__swing "src={potion} alt=""/></a>
                 </div>
-                <img className="imgAndrea animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1TeXMvfoWhVli_rKbSzHus8CjWkeDCB_W" alt="" />
+                <img className="imgAndrea animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1V6FeyNu2Saiwb5VR_mKyRDXBrllyXUEK" alt="" />
             </div>
 
             
