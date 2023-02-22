@@ -31,7 +31,7 @@
 }
 
 /* ANIMACION CEL  */
-.card {
+.cardContact {
         --bg: #f7f7f8;
         --hover-bg: #ffe5fe;
         --hover-text: #8f1775;
@@ -49,7 +49,7 @@
         align-items: center;
       }
       
-      .card__body {
+      .cardContact__body {
         color: #464853;
         line-height: 1.2rem;
         margin: 0 10px;
@@ -57,12 +57,12 @@
         
       }
       
-      .card > strong {
+      .cardContact > strong {
         font-size: 2vw;
         letter-spacing: -.035rem;
       }
       
-      .card span {
+      .cardContact span {
         position: absolute;
         inset: 0;
         width: 100%;
@@ -77,24 +77,25 @@
         transition: all .3s cubic-bezier(.6,.4,0,1);
       }
       
-      .card:hover span {
+      .cardContact:hover span {
         top: 0;
         font-size: 1.2rem;
       }
       
-      .card:hover {
+      .cardContact:hover {
         background: var(--hover-bg);
       }
       
-      .card:hover>div,.card:hover>strong {
+      .cardContact:hover>div,.cardContact:hover>strong {
         opacity: 0;
       }
 
       @media (min-width:482px) {
-        .card {
+        .cardContact {
 
           width: 16vw;
-          min-height: 18vw;
+          height: 18vw;
+          
           
         }
         

@@ -38,7 +38,7 @@ function Header(props) {
                 </NavLink>
               </NavItem>
               <NavItem className='NavItem'>
-                <NavLink className='itemNav' href="#aboutMeSection">
+                <NavLink className='itemNav' href="#contactSection">
                   Contact
                 </NavLink>
               </NavItem>

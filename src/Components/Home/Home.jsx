@@ -25,7 +25,7 @@ function Home (){
                 <img className="imgAndrea animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1V6FeyNu2Saiwb5VR_mKyRDXBrllyXUEK" alt="" />
             </div>
 
-            
+           
             {/* ABOUT ME */}
             <div className="aboutMe" id='aboutMeSection'>
                 <h1 className="titleAboutMe">- - - About me - - - </h1>
