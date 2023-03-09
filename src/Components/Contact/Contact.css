@@ -57,15 +57,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-radius: 10px;
       }
       
       .cardContact__body {
         color: #464853;
         line-height: 1.2rem;
         margin: 0 10px;
-        font-size: 1rem;
-      
-        
+        font-size: 3vw;
       }
       
       .cardContact > strong {
@@ -103,11 +102,42 @@
 
       @media (min-width:482px) {
         .cardContact {
+          width: 35vw;
+          height: 25vw;
+        }
+        .cardContact span a{
+          font-size: 3vw;
+        }
+        .cardContact > strong {
+          font-size: 3vw;
+          letter-spacing: -.035rem;
+        }
+        
+        .cardContact__body {
+          line-height: 4vw;
+          margin: 0 10px;
+          font-size: 3vw;
+        }
+        
+      }
 
-          width: 16vw;
-          height: 18vw;
-          
-          
+      @media (min-width:1024px) {
+        .cardContact {
+          width: 20vw;
+          height: 17vw;
+        }
+        .cardContact span a{
+          font-size: 1.5vw;
+        }
+        .cardContact > strong {
+          font-size: 1.8vw;
+          letter-spacing: -.035rem;
+        }
+        
+        .cardContact__body {
+          line-height: 2vw;
+          margin: 0 10px;
+          font-size: 1.5vw;
         }
         
       }
