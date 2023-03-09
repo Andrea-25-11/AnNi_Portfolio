@@ -22,24 +22,24 @@ function Studios(props) {
       <h1 className='titleStudios'>- - - My studios - - - </h1>
       <Accordion className='acc'open={open} toggle={toggle}>
         <AccordionItem className='accItem'>
-          <AccordionHeader className='accHeader'targetId="1"><strong>Desarrolladora FullStack Developer</strong> / EDUCAMÁS - PROGRÁMATE ACADEMY</AccordionHeader>
+          <AccordionHeader className='accHeader'targetId="1"><strong> Full Stack Web Developer</strong> / EDUCAMÁS - PROGRÁMATE ACADEMY</AccordionHeader>
           <AccordionBody accordionId="1">
-            <strong>SEPT 2022 - ENERO 2023</strong><br/>
-            Formación en bootcamp tanto en fron-end como back-end manejando HTML, CSS, JS, REACT, GIT, GITHUB participando en proyectos tanto individuales como colaborativos.
+            <strong>SEPT 2022 - JANUARY 2023</strong><br/>
+            Bootcamp training in front-end and back-end technologies handling HTML, CSS, JS, REACT, GIT, GITHUB among others and with learning methodology through individual and collaborative projects
           </AccordionBody>
         </AccordionItem>
         <AccordionItem className='accItem'>
-          <AccordionHeader className='accHeader' targetId="2"><strong>Desarrollo web </strong> / CODERHOUSE</AccordionHeader>
+          <AccordionHeader className='accHeader' targetId="2"><strong>Web development </strong> / CODERHOUSE</AccordionHeader>
           <AccordionBody accordionId="2">
-          <strong>JUNIO 2022 - SEPTIEMBRE 2023</strong><br/>
-            Curso de desarrollo web enfocado a front-end donde se utilizaron tecnologías como HTML, CSS, SASS, BOOTSTRAP, GIT y GITHUB.
+          <strong>JUNE 2022 - SEPTEMBER 2023</strong><br/>
+          Web development course focused on front-end where technologies such as HTML, CSS, SASS, BOOTSTRAP, GIT and GITHUB were used.
           </AccordionBody>
         </AccordionItem>
         <AccordionItem className='accItem'>
-          <AccordionHeader className='accHeader' targetId="3"><strong>Pregrado en Derecho</strong>/ UNIVERSIDAD DE SAN BUENAVENTURA</AccordionHeader>
+          <AccordionHeader className='accHeader' targetId="3"><strong>Law degree</strong>/ SAN BUENAVENTURA UNIVERSITY</AccordionHeader>
           <AccordionBody accordionId="3">
-          <strong>FEBRERO 2015 - DICIEMBRE 2019</strong><br/>
-            Pregrado en Derecho, título obtenido abogada.
+          <strong>FEBRUARY 2015 - DECEMBER 2019</strong><br/>
+          Professional university education in which I obtained the law degree.
           </AccordionBody>
         </AccordionItem>
       </Accordion>
