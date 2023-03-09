@@ -1,7 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import "remixicon/fonts/remixicon.css";
-import emoji1 from "./emoji1.png"
+import emoji1 from "./emoji1.png";
+import qrWa from "./wa.link_vu3g4k.png"
 
 function Contact() {
   return (
@@ -52,7 +53,15 @@ function Contact() {
             </div>
             <strong>Cellphone</strong>
             <div class="cardContact__body">+57 313 532 7189</div>
-            <span>Call me</span>
+            <span className="spanWa">
+              <img src={qrWa} className="qrWa" alt=""/>
+            <a
+                href="https://wa.link/vu3g4k"
+                target="_blank"
+              >
+              Call me
+              </a>
+              </span>
           </div>
 
           <div class="cardContact">

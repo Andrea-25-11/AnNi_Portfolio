@@ -1,3 +1,13 @@
+.qrWa{
+  width: 8vw;
+  height: 8vw;
+}
+
+.spanWa{
+  display: flex;
+  flex-direction: column;
+}
+
 .titleContact {
   background-color: #984c9d;
   color: rgb(245, 239, 239);
@@ -54,6 +64,7 @@
         line-height: 1.2rem;
         margin: 0 10px;
         font-size: 1rem;
+      
         
       }
       
