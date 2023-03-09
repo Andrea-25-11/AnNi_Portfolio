@@ -5,7 +5,8 @@
         "subtitle" : "HTML,CSS,REACT",
         "img": "https://drive.google.com/uc?export=view&id=1h_2qIMPRKmX0s5fRl3a1XoT0hHwtPg1C",
         "text" : "Creación de página web para cliente real que presta y comercializa productos para mascotas",
-        "link" : "https://pet-shop-psi-nine.vercel.app/"
+        "link" : "https://pet-shop-psi-nine.vercel.app/",
+        "gitHub": "https://github.com/Andrea-25-11/PetShop  "
 
 },
 {
@@ -14,7 +15,9 @@
     "subtitle" : "HTML,CSS,SASS, BOTTSTRAP",
     "img": "https://drive.google.com/uc?export=view&id=1BKYNy3GnRegweXj8rAoKYTld_ir23FI_",
     "text" : "Proyecto final del curso de desarrrollo web de Coderhouse, se creo una página de una idea que se quisiera desarrollar. ",
-    "link" : "https://andrea-25-11.github.io/Coderhouse-proyectofinal/index.html"
+    "link" : "https://andrea-25-11.github.io/Coderhouse-proyectofinal/index.html",
+    "gitHub": "https://github.com/Andrea-25-11/Coderhouse-proyectofinal"
+
 }
 ,
 {
@@ -23,7 +26,9 @@
     "subtitle" : "HTML,CSS",
     "img": "https://drive.google.com/uc?export=view&id=1DJF-swalRkic59SOKJztlwoR0_TrhFOu",
     "text" : "Creación de página web para el fandom de la serie de Netflix Locke & Key.",
-    "link" : "https://andrea-25-11.github.io/LOCKY-KEY-FANDOM/"
+    "link" : "https://andrea-25-11.github.io/LOCKY-KEY-FANDOM/",
+    "gitHub": "https://github.com/Andrea-25-11/LOCKY-KEY-FANDOM"
+
 }
 ,
 {
@@ -32,7 +37,9 @@
     "subtitle" : "HTML,CSS,JS",
     "img": "https://drive.google.com/uc?export=view&id=1x02JmZm_no2hbEv2owru5UZ4N1-Yy6hC",
     "text" : "Calculadora con funcionalidad básica para operaciones aritméticas, también cuenta con modo oscuro.",
-    "link" : "https://andrea-25-11.github.io/SabujCha_2.0/"
+    "link" : "https://andrea-25-11.github.io/SabujCha_2.0/",
+    "gitHub": "https://github.com/Andrea-25-11/calculadoraJS"
+
 }
 ,
 {
@@ -41,7 +48,9 @@
     "subtitle" : "HTML,CSS",
     "img": "https://drive.google.com/uc?export=view&id=1AqF-O69azmZFvEBmXWmMz52ntGBagwpO",
     "text" : "Creación de página web para empresa que vende té.",
-    "link" : "https://andrea-25-11.github.io/SabujCha_2.0/"
+    "link" : "https://andrea-25-11.github.io/SabujCha_2.0/",
+    "gitHub": "https://github.com/Andrea-25-11/SabujCha_2.0"
+
 }
 ,
 {
@@ -50,7 +59,9 @@
     "subtitle" : "HTML,CSS, JS",
     "img": "https://drive.google.com/uc?export=view&id=1yycc9LD0IDA816YmxMZF30Xenoa_1HXF",
     "text" : "Proyecto colaborativo para creación de juego tipo ruleta, participe principalmente en la creación de animaciones e ilustraciones",
-    "link" : "https://wheel-of-doom-5tbdwl6d4-yeimmibuenaventura.vercel.app/"
+    "link" : "https://wheel-of-doom-5tbdwl6d4-yeimmibuenaventura.vercel.app/",
+    "gitHub": "https://github.com/YeimmiBuenaventura/WheelOfDoom"
+
 }
 ,
 {
@@ -59,7 +70,9 @@
     "subtitle" : "HTML,CSS",
     "img": "https://drive.google.com/uc?export=view&id=1wids5eNFpJzleQmtIougYOWIbT53bkCp",
     "text" : "Proyecto colaborativo para la réplica de página web de Deezer",
-    "link" : "https://andrea-25-11.github.io/DEEZER/"
+    "link" : "https://andrea-25-11.github.io/DEEZER/",
+    "gitHub": "https://github.com/Andrea-25-11/DEEZER"
+
 }
 
 ]

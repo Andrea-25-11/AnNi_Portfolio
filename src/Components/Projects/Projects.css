@@ -3,6 +3,16 @@
 .linksDespliegues{
   text-decoration: none;
 }
+.aGitHub{
+  text-decoration: none;
+  padding-left: 10px;
+}
+.ri-github-fill{
+  color: black;
+  font-size: 30PX;
+  padding-right: 0.2rem;
+}
+
 .flip-card {
     background-color: transparent;
     width: 80vw;
