@@ -70,7 +70,14 @@ function Contact() {
             </div>
             <strong>Email</strong>
             <div class="cardContact__body">karenandrea091110<br/>@gmail.com</div>
-            <span>Text me</span>
+            <span>
+            <a
+                href="mailto:karenandrea091110@gmail.com"
+                target="_blank"
+              >
+              Text me
+              </a>
+              </span>
           </div>
         </div>
 
