@@ -72,7 +72,7 @@ function Contact() {
             <div class="cardContact__body">karenandrea091110<br/>@gmail.com</div>
             <span>
             <a
-                href="mailto:karenandrea091110@gmail.com"
+                href="mailto:karenandrea091110@gmail.com?Subject=Interesado%20en%20contactarte"
                 target="_blank"
               >
               Text me
