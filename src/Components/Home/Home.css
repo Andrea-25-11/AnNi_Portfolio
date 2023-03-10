@@ -138,7 +138,7 @@
         grid-row-gap: 20vw;
         background-color: #E4D0E5;
         justify-items: center;
-        margin-bottom: 70px;
+        padding-bottom: 70px;
 
 }
 
@@ -205,7 +205,7 @@
         grid-template-columns: 1fr;
         grid-column-gap: 0vw;
         grid-row-gap: 8vw;
-        margin-bottom: 30px;
+        padding-bottom: 60px;
     }
 }
 /* ESTILO TABLET */
@@ -249,7 +249,7 @@
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 0vw;
         grid-row-gap: 8vw;
-        margin-bottom: 70px;
+        padding-bottom: 30px;
     }
 }
 /* ESTILO DESKTOP */
@@ -262,7 +262,7 @@
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 0vw;
         grid-row-gap: 3vw;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 } 
 
