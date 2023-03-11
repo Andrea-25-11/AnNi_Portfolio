@@ -45,8 +45,8 @@
         --bg: #f7f7f8;
         --hover-bg: #ffe5fe;
         --hover-text: #8f1775;
-        width: 40vw;
-        height: 25vw;
+        width: 60vw;
+        height: 30vw;
         text-align: center;
         background: var(--bg);
         padding: 20px;
@@ -64,11 +64,11 @@
         color: #464853;
         line-height: 1.2rem;
         margin: 0 10px;
-        font-size: 3vw;
+        font-size: 4vw;
       }
       
       .cardContact > strong {
-        font-size: 2vw;
+        font-size: 4vw;
         letter-spacing: -.035rem;
       }
       

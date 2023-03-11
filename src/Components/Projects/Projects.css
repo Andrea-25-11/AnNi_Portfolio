@@ -1,5 +1,8 @@
 
 /* ---ESTILOS CARD-- */
+.title{
+  padding: 0 1rem;
+}
 .linksDespliegues{
   text-decoration: none;
 }
@@ -86,7 +89,6 @@ translate: 0rem 1rem;
   .cta {
     border: none;
     background: none;
-    margin-top: 2rem;
   }
   
   .cta span {
@@ -101,6 +103,7 @@ translate: 0rem 1rem;
   .cta svg {
     transform: translateX(-8px);
     transition: all 0.3s ease;
+    display: none;
   }
   
   .cta:hover svg {
@@ -113,6 +116,11 @@ translate: 0rem 1rem;
   
   .hover-underline-animation {
     position: relative;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: #984C9D;
     padding-bottom: 20px;
   }
@@ -121,10 +129,10 @@ translate: 0rem 1rem;
     content: "";
     position: absolute;
     width: 100%;
+    left: 0;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
-    left: 0;
     background-color: #2e6496;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
@@ -149,6 +157,18 @@ translate: 0rem 1rem;
     border-radius: 0 0 17px  17px;
     translate: 0rem 0.2rem;
     }
+    .ri-github-fill{
+      color: black;
+      font-size: 20PX;
+      padding-right: 0.2rem;
+    }
+    .hover-underline-animation:after {
+      width: 60%;
+      left: 40px;
+     
+    }
+    
+    
 }
  /* --TAMAÑOS CARDS TABLET */
 @media (min-width:482px) {
@@ -163,6 +183,11 @@ translate: 0rem 1rem;
   .imgProjects{
     border-radius: 0 0 17px  17px;
     translate: 0rem 0.5rem;
+    }
+    .hover-underline-animation:after {
+      width: 70%;
+      left: 40px;
+     
     }
 }
 
