@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import "remixicon/fonts/remixicon.css";
-import emoji1 from "./emoji1.png";
+// import emoji1 from "./emoji1.png";
 import qrWa from "./wa.link_vu3g4k.png"
 
 function Contact() {

@@ -3,6 +3,7 @@
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 100% 0% 77% 23% / 0% 84% 16% 100%  ;
 }
 
 .NavItem .itemNav{
