@@ -8,7 +8,7 @@ import data from "../Projects/Project.json";
 import 'animate.css';
 import potion from "./assets/pocimas2.png";
 import Contact from '../Contact/Contact';
-import LazyLoad from "react-lazy-load";
+import techBookshelf from "./techBookshelf.png";
 
 function Home (){
     return (
@@ -23,9 +23,7 @@ function Home (){
                     <a className="aSeeMore" href="
                     #aboutMeSection">See more about me<img className="potion animate__animated animate__swing "src={potion} alt=""/></a>
                 </div>
-                <LazyLoad>
                     <img className="imgAndrea animate__animated animate__zoomIn"src="https://drive.google.com/uc?export=view&id=1V6FeyNu2Saiwb5VR_mKyRDXBrllyXUEK" alt="" />
-                </LazyLoad>
             </div>
 
            
@@ -55,7 +53,7 @@ function Home (){
             {/* BOOKSHELF */}
             <div className="divTechBookshelf">
                 <h1 className="titleTechBookshelf">- - - My tech bookshelf - - -</h1>
-                <img src="https://drive.google.com/uc?export=view&id=1DHSCdAh7AR1LomXZVXmM822-eNd4BvD6" alt="" className="techBookshelf"  data-aos="flip-down"  data-aos-duration="500" data-aos-easing="ease-in-back"/><br/>
+                <img src={techBookshelf} alt="" className="techBookshelf"  data-aos="flip-down"  data-aos-duration="500" data-aos-easing="ease-in-back" data-aos-delay="300"/><br/>
                 <a href="#projectsSection" className='aProjects'>Take a look of my projects<img className="potion"src={potion} alt="" /></a>
             </div>
             {/* WHERE I LEARNED */}
