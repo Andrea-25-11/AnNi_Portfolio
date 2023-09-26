@@ -38,7 +38,7 @@ function Home (){
                             <img className="imgAboutDance animate__animated animate__shakeX"src="https://drive.google.com/uc?export=view&id=1H3Aeb_EHMcL0o5fQaKwTYMTuAzC6MwIu" alt="imagen Andrea bailando" />                             
                         </div>
                                                 
-                        <a className="aResume"href="https://drive.google.com/file/d/14pXAyaSs9dwriI2BfU2GVO8voe2BNpVt/view?usp=sharing" target="_blank">See resume<img src={potion} alt="" className="potion"/></a>
+                        <a className="aResume"https://drive.google.com/file/d/12zZGM8tcsO0MVxe1gmSZ0-4jqDzkKkjR/view?usp=sharing" target="_blank">See resume<img src={potion} alt="" className="potion"/></a>
                     </div>
                     <p className='pAboutMe' 
                     data-aos="fade-left"
